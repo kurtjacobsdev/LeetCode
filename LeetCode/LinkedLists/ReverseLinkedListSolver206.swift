@@ -26,7 +26,7 @@ enum ReverseLinkedListSolver206Error: Error {
 }
 
 public class ReverseLinkedListSolver206 {
-    func reverseList(_ head: ListNode?, algorithm: ReverseLinkedListSolver206Algorithm) throws -> ListNode? {
+    func solve(_ head: ListNode?, algorithm: ReverseLinkedListSolver206Algorithm) throws -> ListNode? {
         switch algorithm {
         case .stack:
             return try algorithm1(head)

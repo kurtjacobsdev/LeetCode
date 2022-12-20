@@ -21,21 +21,21 @@ final class ReverseLinkedListSolver206Tests: XCTestCase {
     // MARK: Tests
     func testReverseLinkedListSolverStack() throws {
         for testCase in testCases {
-            let result = try solver.reverseList(testCase.input, algorithm: .stack)
+            let result = try solver.solve(testCase.input, algorithm: .stack)
             AssertLinkedLists(lhs: result, rhs: testCase.answer)
         }
     }
 
     func testReverseLinkedListSolverPointers() throws {
         for testCase in testCases {
-            let result = try solver.reverseList(testCase.input, algorithm: .pointers)
+            let result = try solver.solve(testCase.input, algorithm: .pointers)
             AssertLinkedLists(lhs: result, rhs: testCase.answer)
         }
     }
 
     func testReverseLinkedListSolverRecursive() throws {
         for testCase in testCases {
-            let result = try solver.reverseList(testCase.input, algorithm: .recursive)
+            let result = try solver.solve(testCase.input, algorithm: .recursive)
             AssertLinkedLists(lhs: result, rhs: testCase.answer)
         }
     }
