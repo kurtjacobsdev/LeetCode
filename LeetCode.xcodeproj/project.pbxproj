@@ -12,6 +12,8 @@
 		665262E62951EE980072DD28 /* LeetCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 665262D82951EE980072DD28 /* LeetCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		665262F22951EEF70072DD28 /* ReverseLinkedListSolver206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665262F12951EEF70072DD28 /* ReverseLinkedListSolver206.swift */; };
 		665262F72951EFD40072DD28 /* ReverseLinkedListSolver206Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665262F62951EFD40072DD28 /* ReverseLinkedListSolver206Tests.swift */; };
+		665262F92952202B0072DD28 /* TwoSumSolver1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665262F82952202B0072DD28 /* TwoSumSolver1.swift */; };
+		665262FC295220870072DD28 /* TwoSumSolver1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665262FB295220870072DD28 /* TwoSumSolver1Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		665262DF2951EE980072DD28 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		665262F12951EEF70072DD28 /* ReverseLinkedListSolver206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListSolver206.swift; sourceTree = "<group>"; };
 		665262F62951EFD40072DD28 /* ReverseLinkedListSolver206Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListSolver206Tests.swift; sourceTree = "<group>"; };
+		665262F82952202B0072DD28 /* TwoSumSolver1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSolver1.swift; sourceTree = "<group>"; };
+		665262FB295220870072DD28 /* TwoSumSolver1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSolver1Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		665262E32951EE980072DD28 /* LeetCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				665262FA295220660072DD28 /* Arrays */,
 				665262F32951EFB30072DD28 /* LinkedLists */,
 			);
 			path = LeetCodeTests;
@@ -100,6 +105,7 @@
 		665262F02951EEA80072DD28 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				665262F82952202B0072DD28 /* TwoSumSolver1.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -110,6 +116,14 @@
 				665262F62951EFD40072DD28 /* ReverseLinkedListSolver206Tests.swift */,
 			);
 			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		665262FA295220660072DD28 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				665262FB295220870072DD28 /* TwoSumSolver1Tests.swift */,
+			);
+			path = Arrays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665262F92952202B0072DD28 /* TwoSumSolver1.swift in Sources */,
 				665262DA2951EE980072DD28 /* LeetCode.docc in Sources */,
 				665262F22951EEF70072DD28 /* ReverseLinkedListSolver206.swift in Sources */,
 			);
@@ -231,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665262F72951EFD40072DD28 /* ReverseLinkedListSolver206Tests.swift in Sources */,
+				665262FC295220870072DD28 /* TwoSumSolver1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
