@@ -77,6 +77,14 @@
 		665262D72951EE980072DD28 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				66526304295228770072DD28 /* Heap */,
+				66526303295228670072DD28 /* Dictionary */,
+				665263022952282F0072DD28 /* Stack */,
+				66526301295228290072DD28 /* Queue */,
+				66526300295228250072DD28 /* Sort */,
+				665262FF295227EE0072DD28 /* DynamicProgramming */,
+				665262FE295227E90072DD28 /* Graphs */,
+				665262FD295227E20072DD28 /* Trees */,
 				665262F02951EEA80072DD28 /* Arrays */,
 				665262EF2951EE9F0072DD28 /* LinkedLists */,
 				665262D82951EE980072DD28 /* LeetCode.h */,
@@ -124,6 +132,62 @@
 				665262FB295220870072DD28 /* TwoSumSolver1Tests.swift */,
 			);
 			path = Arrays;
+			sourceTree = "<group>";
+		};
+		665262FD295227E20072DD28 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		665262FE295227E90072DD28 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		665262FF295227EE0072DD28 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		66526300295228250072DD28 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		66526301295228290072DD28 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		665263022952282F0072DD28 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		66526303295228670072DD28 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		66526304295228770072DD28 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
