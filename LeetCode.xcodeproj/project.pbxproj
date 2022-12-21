@@ -18,6 +18,8 @@
 		6652630A29522B750072DD28 /* PalindromeNumber9SolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652630929522B750072DD28 /* PalindromeNumber9SolverTests.swift */; };
 		6652630C295233440072DD28 /* PlusOneSolver66.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652630B295233440072DD28 /* PlusOneSolver66.swift */; };
 		6652630E295233BF0072DD28 /* PlusOneSolver66Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652630D295233BF0072DD28 /* PlusOneSolver66Tests.swift */; };
+		66526310295238170072DD28 /* RemoveElementSolver27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652630F295238170072DD28 /* RemoveElementSolver27.swift */; };
+		66526312295238AA0072DD28 /* RemoveElementSolver27Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66526311295238AA0072DD28 /* RemoveElementSolver27Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		6652630929522B750072DD28 /* PalindromeNumber9SolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber9SolverTests.swift; sourceTree = "<group>"; };
 		6652630B295233440072DD28 /* PlusOneSolver66.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneSolver66.swift; sourceTree = "<group>"; };
 		6652630D295233BF0072DD28 /* PlusOneSolver66Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneSolver66Tests.swift; sourceTree = "<group>"; };
+		6652630F295238170072DD28 /* RemoveElementSolver27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElementSolver27.swift; sourceTree = "<group>"; };
+		66526311295238AA0072DD28 /* RemoveElementSolver27Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElementSolver27Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 			children = (
 				665262F82952202B0072DD28 /* TwoSumSolver1.swift */,
 				6652630B295233440072DD28 /* PlusOneSolver66.swift */,
+				6652630F295238170072DD28 /* RemoveElementSolver27.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			children = (
 				665262FB295220870072DD28 /* TwoSumSolver1Tests.swift */,
 				6652630D295233BF0072DD28 /* PlusOneSolver66Tests.swift */,
+				66526311295238AA0072DD28 /* RemoveElementSolver27Tests.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -327,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66526310295238170072DD28 /* RemoveElementSolver27.swift in Sources */,
 				665262F92952202B0072DD28 /* TwoSumSolver1.swift in Sources */,
 				665262DA2951EE980072DD28 /* LeetCode.docc in Sources */,
 				665262F22951EEF70072DD28 /* ReverseLinkedListSolver206.swift in Sources */,
@@ -340,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665262F72951EFD40072DD28 /* ReverseLinkedListSolver206Tests.swift in Sources */,
+				66526312295238AA0072DD28 /* RemoveElementSolver27Tests.swift in Sources */,
 				6652630E295233BF0072DD28 /* PlusOneSolver66Tests.swift in Sources */,
 				6652630A29522B750072DD28 /* PalindromeNumber9SolverTests.swift in Sources */,
 				665262FC295220870072DD28 /* TwoSumSolver1Tests.swift in Sources */,
